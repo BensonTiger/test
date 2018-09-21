@@ -1,0 +1,110 @@
+/*視窗底色設定*/
+
+body {
+    background-color: #ffffff;
+    background: url(img/topimg.jpg)top center no-repeat;
+}
+
+#wrap {
+    background-color: #f0f0f0;
+    border: #fafafa 0px solid;
+    box-shadow: 0 0 10px #00023c;
+    color: #646464;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 400px auto 0;
+    max-width: 800px;
+    padding: 1px 90px;
+}
+
+
+/*連結顏色設定*/
+
+a {
+    color: #485e6a;
+}
+a:hover{
+    color: #675a13;
+}
+a:visited{
+    color: #675a13;
+}
+/*頁面標題設定*/
+h1{
+    color:#223143;
+    text-align:center;
+    font-size:300%;
+}
+/*次標題設定*/
+h2{
+    color:#48442e;
+    border:#b1b1b1 1px solid;
+    border-left: #8f956b 10px solid;
+    padding: 5px 20px;
+    text-align:center;
+    margin: 0 auto;
+    max-width: 200px;
+        
+}
+h3{
+    color: black;
+    font-size: 140%;
+}
+
+table#toplink{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px auto;
+    padding: 2px 20px;
+}
+
+/*內容標題設定*/
+li{
+    font-weight:lighter;
+    font-size: 18px
+}
+strong{
+    color: black;
+    font-size: 25px;
+}
+
+
+
+table.tab{
+    width: 650px;
+    border: #555555 1px solid;
+    border-collapse: collapse;
+}
+.tab th,.tab td{
+    padding: 5px 10px;
+    border: #555555 1px solid;
+    text-align: center;
+}
+.tab th{
+    width: 10em;
+    vertical-align: top;
+    text-align: left;
+    background-color: #c6c3c3;
+    color: #555555;
+}
+.intb{
+    background: #ffffff;
+}
+.intb:hover{
+    background: #dedee3;
+}
+input{
+    cursor:pointer;
+}
+
+.btn{
+    width:100px;
+    height:35px;
+    background-color: #ffffff;
+}
+.btn:hover{
+    background-color: #d2eaff;
+}
+
+
